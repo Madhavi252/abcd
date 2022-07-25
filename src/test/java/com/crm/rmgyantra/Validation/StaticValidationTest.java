@@ -21,7 +21,7 @@ public class StaticValidationTest {
 		
 		Assert.assertEquals(expectedData, actualData);
 		
-		res.then().log().all();
+		res.then().log().all()
 		
 	}
 	
